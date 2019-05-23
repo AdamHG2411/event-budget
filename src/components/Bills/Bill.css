@@ -1,0 +1,22 @@
+.Bill {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px;
+	border-radius: 30px;
+}
+
+.Bill-Text {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.Bill-Input {
+	outline: none;
+	width: 100px;
+	border: 1px solid grey;
+	margin-right: 50px;
+}
+
+.fas {
+	color: #ffbb00;
+}

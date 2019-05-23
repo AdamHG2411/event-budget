@@ -1,0 +1,45 @@
+.Bills {
+	margin: 20px auto;
+	width: 80%;
+}
+.Bills-Intro {
+	padding: 20px;
+	text-align: center;
+	border-radius: 25px;
+	margin: 20px 50px;
+	background-color: #00c9a7;
+	color: #fff;
+	font-size: 28px;
+}
+
+.Bills-CategoryList {
+	cursor: pointer;
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+	font-family: verdana;
+	font-size: 14px;
+	transition: max-height 0.2s ease-out;
+}
+
+.box-lifestyle {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 10%;
+	border: 1px solid #444444;
+	color: #444444;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Bills-Submit {
+	margin: 20px auto;
+	font-size: 18px;
+	border-radius: 5px;
+	padding: 10px 30px;
+	width: 150px;
+	background: #ffbb00;
+	color: #fff;
+	font-weight: 700;
+	border: 1px solid #fff;
+}

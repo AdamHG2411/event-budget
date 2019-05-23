@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+}
+
+.prompt2 {
+    text-align: center;
+    margin: 10vh auto;
+    padding: 30px;
+    border-radius: 30px;
+    background: #00c9a7;
+    color: #ffffff;
+    width: 75vw;
+    height: 75vh;
+}
+.form {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    align-content: flex-start;
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+} 
+
+
+.event-box-prices{
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+    width: 50px;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+  }
+  .small-box {
+    width: 300px;
+    margin: 0 auto;
+    clear: both;
+}
+
+button {
+    background-color: #ffbb00;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 75px;
+  }

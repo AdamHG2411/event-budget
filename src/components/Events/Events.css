@@ -1,0 +1,23 @@
+.events-heading {
+	padding: 10px;
+	background-color: #00c9a7;
+	color: #fff;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.listedEvents {
+    /* border: 1px solid #ffbb00;
+    color: #444444; */
+    background-color: #ffbb00;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nameOfEvent, .startDate, .endDate, .monthly-savings {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}

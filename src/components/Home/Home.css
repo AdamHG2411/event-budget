@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+.content {
+    text-align: center;
+    margin: 25vh auto;
+    padding: 30px;
+    border-radius: 30px;
+    background: #00c9a7;
+    color: #ffffff;
+}
+
+
+input {
+    padding: 5px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255,255,255);
+    width: 300px;
+    text-align: center;
+  }
+  
