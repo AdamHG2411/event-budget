@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+}
+.App {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 160px auto;
+	background-color: #f2f5f7;
+	min-height: 100vh;
+}
+
+.App-Nav {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+}
+
+.App-Main {
+	grid-row: 1 / 2;
+	grid-column: 2 / 3;
+	padding: 60px 0 0 0;
+}

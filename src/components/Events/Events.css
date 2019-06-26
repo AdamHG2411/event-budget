@@ -1,0 +1,38 @@
+.Events {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	padding: 10px 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.Events-Intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: flex-start;
+	text-align: left;
+	background: white;
+	color: #303132;
+	width: 60%;
+	margin: 5px auto;
+	padding: 0.5em;
+	width: 800px;
+}
+
+.Events-Intro > * {
+	margin: 10px;
+}
+
+.Events-IntroHeader {
+	border-bottom: 1px solid #ddd;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.mission {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.Bill {
+	display: flex;
+	align-items: center;
+}
+
+.Bill-Text {
+	color: #303132;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	opacity: 0.8;
+	display: inline-block;
+}
+
+.Bill-Input {
+	outline: none;
+	width: 150px;
+	border: 1px solid rgb(199, 197, 197);
+	margin-right: 20px;
+}

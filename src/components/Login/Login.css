@@ -1,0 +1,60 @@
+.Login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.Login > * {
+	margin: 20px auto;
+}
+
+.Login-Forms {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.Login-Login,
+.Login-Signup {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-start;
+	background: white;
+	color: #303132;
+	margin: 5px auto;
+	padding: 0.5em;
+	text-align: left;
+}
+
+.Login-FormHeader {
+	width: 100%;
+	padding: 10px 0 0 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.Login-Forms form {
+	display: flex;
+	flex-direction: column;
+}
+
+.Login-Field,
+.Login-Submit {
+	max-width: 150px;
+	border: 1px solid #ccc;
+}
+
+.Login-Submit {
+	background-color: #f1a100;
+	color: white;
+	font-weight: 700;
+	margin: 10px auto;
+}
+
+.Login-Disclaimer {
+	width: 70%;
+}

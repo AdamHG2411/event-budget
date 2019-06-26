@@ -1,0 +1,51 @@
+.Income {
+	margin: 20px auto;
+	width: 80%;
+	background: #fff;
+	padding: 20px;
+}
+
+.Income-header {
+	font-family: 'Fira Sans', sans-serif;
+	color: #303132;
+	opacity: 0.9;
+	font-size: 28px;
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 100%;
+	opacity: 0.3;
+}
+.Income-all-lines {
+	/* display: flex; */
+	align-items: center;
+}
+.Income-line-items{
+	display: block;
+}
+.Income-inputs {
+	outline: none;
+	width: 150px;
+	border: 1px solid rgb(199, 197, 197);
+	margin-right: 20px;
+}
+.Income-text {
+	display: inline-block;
+	color: #303132;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.Income-Submit {
+	font-size: 18px;
+	padding: 10px 30px;
+	width: 150px;
+	background: #F1A100;
+	color: #fff;
+	font-weight: 700;
+	border: 1px solid #fff;
+	margin-top: 40px;
+}

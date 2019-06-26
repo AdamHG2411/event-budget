@@ -1,0 +1,52 @@
+.Event {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: white;
+	color: #303132;
+	width: 60%;
+	margin: 5px auto;
+	padding: 0.5em;
+}
+
+.Event > * {
+	margin: 10px auto;
+}
+.Event-Header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+
+.Event-Name {
+	align-self: left;
+	margin: 0;
+	padding: 0;
+}
+
+.Event-Delete {
+	display: flex;
+	width: 75px;
+	justify-content: space-between;
+	align-content: center;
+	border: 1px solid #ddd;
+	line-height: 1em;
+	font-size: 1em;
+	padding: .5em;
+	background-color: #f1a100;
+	color: white;
+	font-weight: 700;
+}
+
+.Event-Delete div {
+	padding: 0 5px 0 0;
+	margin: 0;
+	width: 10px;
+}
+
+.Event-Delete i {
+	color: white;
+}
